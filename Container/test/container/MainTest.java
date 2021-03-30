@@ -5,9 +5,7 @@
  */
 package container;
 
-import junit.framework.Test;
 import junit.framework.TestCase;
-import junit.framework.TestSuite;
 
 /**
  *
@@ -15,22 +13,12 @@ import junit.framework.TestSuite;
  */
 public class MainTest extends TestCase {
     
-//    public MainTest(String testName) {
-//        super(testName);
-//    }
+    public MainTest(String testName) {
+        super(testName);
+    }
 
-    /**
-     * Test of main method, of class Main.
-     */
-//    public void testMain() {
-//        System.out.println("main");
-//        String[] args = null;
-//        Main.main(args);
-//      
-//    }
-     public static Test suite() {
-        TestSuite suite = new TestSuite(ContainerTest.class);
-        return suite;
+    public void testSomeMethod() {
+      
     }
     
 }
